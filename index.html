@@ -13,30 +13,32 @@
         <h2>Indice de massa corporal</h2>
     </header>
      <main>
+            <form action="#">
+                <div class="nome">
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+                
+                <div class="peso">
+                    <label for="ipeso">Peso: </label>
+                    <input type="number" name="peso" id="peso" placeholder="Digite seu peso">
+                </div>
+                
+                <div class="altura">
+                    <label for="ialtura">Altura: </label>
+                    <input type="number" name="altura" id="altura" placeholder="Digite sua altura">
+                </div>
+                <div>
+                    <input type="button" value="Calcular" id="calcular" class="calcular">
+                </div>
+            </form>
         
-        <section>
-            <div>
-                <label for="inome">Nome: </label>
-                <input type="text" name="nome" id="nome">
-            </div>
-            
-            <div
-                ><label for="ipeso">Peso: </label>
-                <input type="number" name="peso" id="peso">
-            </div>
-            
-            <div>
-                <label for="ialtura">Altura: </label>
-                <input type="number" name="altura" id="altura">
-            </div>
-        </section>
-        
-        <div id="resultado" class="resultado">testando...</div>
-
+        <div id="resultado" class="resultado"><p>Aguardando dados...</p></div>
     </main>
 
     <footer>
         <p>developed by <a href="https://github.com/wesley-oliveira-bd" target="_blank">Wesley de oliveira</a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

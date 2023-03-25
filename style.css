@@ -27,7 +27,7 @@ header {
 
 }
 
-section {
+form {
     color: white;
     padding: 5px 0px;
     margin: auto;
@@ -36,26 +36,47 @@ section {
     width: 450px;
     border-radius: 10px;
     background: linear-gradient(#D1CA98, #d1ca9869);
-
-
-
 }
-section > div {
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+form > div {
     margin: 10px;
 }
 
+div > input {
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+input#calcular {
+    display: block;
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+}
+
 div.resultado {
+    display: flex;
+    align-items: center;
     text-align: center;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: lightgray;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
-    color: white;
+    color: #5D5F71;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
     height: 250px;
     width: 450px;
     border-radius: 10px;
-
 }
 
 footer {
